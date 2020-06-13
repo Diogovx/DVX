@@ -8,6 +8,12 @@ $database = 'gatolandia'; // nome do banco de dados
 $usuario = 'root'; // nome do usuário do banco de dados
 $senha = ''; // senha do usuário do banco de dados
 
+//dados de conexão com o awadspace
+$servidor = 'fdb24.awardspace.net';
+$database = '3472255_gatolandia';
+$usuario = '3472255_gatolandia';
+$senha = '3472255_gatolandia';
+
 // Conexão com o MySQL --> OO   ┌───> Parâmetros construtores do objeto
 $conn = new mysqli($servidor, $usuario, $senha, $database);
 if ($conn->connect_error) die("Falha de conexão com o banco e dados: " . $conn->connect_error);

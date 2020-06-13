@@ -35,7 +35,7 @@ $js = "";
     Valores possíveis: "", "artigos", "contatos", "sobre", "procurar", "noticias".
     Qualquer outro valor = "".
 */
-$menu = "";
+$menu = "procurar";
 
 /////////////////////////////////////////////////////
 // Seus códigos PHP para esta página começam aqui! //
